@@ -17,6 +17,10 @@ typedef int ImNodesPinShape;        // -> enum ImNodesPinShape_
 typedef int ImNodesAttributeFlags;  // -> enum ImNodesAttributeFlags_
 typedef int ImNodesMiniMapLocation; // -> enum ImNodesMiniMapLocation_
 
+// Forward declarations
+struct ImVec2;
+struct ImVec4;
+
 enum ImNodesCol_
 {
     ImNodesCol_NodeBackground = 0,
