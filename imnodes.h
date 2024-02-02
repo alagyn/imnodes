@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stddef.h>
+#include <imgui.h>
 
 #ifdef IMNODES_USER_CONFIG
 #include IMNODES_USER_CONFIG
@@ -16,10 +17,6 @@ typedef int ImNodesStyleFlags;      // -> enum ImNodesStyleFlags_
 typedef int ImNodesPinShape;        // -> enum ImNodesPinShape_
 typedef int ImNodesAttributeFlags;  // -> enum ImNodesAttributeFlags_
 typedef int ImNodesMiniMapLocation; // -> enum ImNodesMiniMapLocation_
-
-// Forward declarations
-struct ImVec2;
-struct ImVec4;
 
 enum ImNodesCol_
 {
